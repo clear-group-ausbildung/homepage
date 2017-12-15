@@ -1,0 +1,19 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Clear Group Ausbildung Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clear-group-ausbildung/homepage.git"
+  },
+  "author": "clear-group-ausbildung",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/clear-group-ausbildung/homepage/issues"
+  },
+  "homepage": "https://github.com/clear-group-ausbildung/homepage#readme"
+}
