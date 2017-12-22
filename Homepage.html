@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+
+
+
+
+</head>
+  <body>
+    <header>
+      <div class="navbar navbar-inverse navbar-static-top" style="background-color:#4d4d4d">
+        <div class="container" >
+          <div class="row">
+            <div class="navbar-header">
+            <div class="navbar-brand"> <a id="head" href="Homepage.html">CLEAR AZUBIS</a> 
+            </div> 
+            <button type="button" class="navbar-toggle buttonnav"
+              data-toggle="collapse"
+              data-target=".navbar-collapse">              
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+              <li><a href="default.html">Kalender</a></li>
+              <li><a href="#" data-toggle="dropdown">Wir<span class="caret"></span></a>
+                <ul class="dropdown-menu"> 
+                  <li><a href="Wir.html">2 0 1 7</a></li>
+                  <li><a href="Wir.html#target16">2 0 1 6</a></li>
+                </ul>
+              </li>
+              <li><a href="#" data-toggle="dropdown">Die Ausbildung<span class="caret"></span></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="DieAusbildung.html">Tools</a></li>
+                  <li><a href="DieAusbildung.html#targetbe">Berufsschule</a></li>
+                  <li><a href="DieAusbildung.html#targetar">Arbeitsplatz</a></li>
+                  <li><a href="DieAusbildung.html#targeteq">Equipment</a></li>       
+                </ul>
+              </li>
+            
+
+            
+              <li><a href="#" data-toggle="dropdown">Aktivitäten<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Activity.html">Projekte</a></li>
+                  <li><a href="Activity.html#targetme">Mentoring</a></li>
+                </ul>
+              </li>
+              <li><a href="http://www.clear-group.de/">Clear Group</a></li>
+            </ul>
+         
+            </div>
+        </div>
+      </div>
+    </header>
+    
+    <main> 
+      <div class="container">
+      <div class="Reihe1">
+      
+        <div class="row text-center">
+          <div class="col-md-7">
+            <div id="Reihe1links" class="row well">
+              <h2>Willkommen!</h2>
+            <h3 class="welcome">Wir sind die Zukunft!</h3>
+            <p>Die Welt wird immer vernetzter. Nahezu jedes Gerät kann mit dem Internet kommunizieren oder gar gesteuert werden. Was früher undenkbar schien, ist jetzt schon Wirklichkeit.
+              Die Welt beschleunigt sich und schreitet voran. Und wir auch! Um in dieser schnell veränderten Welt up2Date zu bleiben, benötigt man Informatiker mit Kreativität und Know How, 
+              deshalb sind wir Auszubildene als Fachinformatiker für Anwendungsentwicklung.
+              Begleite uns auf unserem Weg, oder mach ihn zu deinem!
+          </div>
+          </div>   
+          <div class="col-md-3 col-md-offset-1 ">
+            <div class="slideshow-content" >
+                <img class="mySlides" src="bilder/Bild1.jpg">
+                <img class="mySlides" src="bilder/Bild2.jpg">
+                <img class="mySlides" src="bilder/Bild3.jpg">
+                <img class="mySlides" src="bilder/Bild4.jpg">
+
+            </div>
+              <script>
+              var slideIndex = 0;
+              carousel();
+
+              function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                  }
+                  slideIndex++;
+                  if (slideIndex > x.length) {slideIndex = 1} 
+                  x[slideIndex-1].style.display = "block"; 
+                  setTimeout(carousel, 2000); 
+              }
+              </script>
+            
+            
+          </div>
+        </div>
+      </div>
+   
+          
+      
+      <div style="margin-top:70px" class="row well">
+          <div class="Zeile1 col-md-3">
+  
+    <h3>District Ride</h3>
+    <div id="district">
+         
+         <img class="img-district" width="300px" height="auto" src="bilder/district.jpg" alt="bowling">
+      <div class="text-left">
+    <p class="lead">Ein atemberaubender Adrenalinstoß muss es sein, in dieser Höhe Sprünge zu erleben, was wir dort [...]</p> 
+      <a href="Activity.html"><button class="btn" type="button" >Erfahren sie mehr!</button></a>
+      </div>
+            </div>
+        </div>
+                                                                               
+              <div class="Zeile2 col-md-3 col-md-offset-1">
+  
+    <h3>Bowling</h3>
+    <div id="bowling">
+         
+         <img class="img-Bowling" width="300px" height="auto" src="bilder/bowling.jpg" alt="bowling">
+      <div class="text-left">
+    <p class="lead">Gemeinsam in der BU Java waren wir Bowlen, verbrachten einen unterhaltsamen Abend und [...]</p> 
+      <a href="Activity.html#targetme"><button class="btn" type="button" >Erfahren sie mehr!</button></a>
+      </div>
+                </div>
+        </div>
+      
+            <div class="Zeile col-md-3 col-md-offset-1">
+  
+    <h3>Azubi Website</h3>
+    <div id="azubiweb">
+         
+         <img class="img-website" width="300px" height="auto" src="bilder/website.jpg" alt="website">
+      <div class="text-left">
+    <p class="lead">Eine Azubi Homepage zu erstellen, ist nur eins von vielen verschiedenen Projekten, die man [...]</p> 
+      <a href="Activity.html#targetme"><button class="btn" type="button" >Erfahren sie mehr!</button></a>
+      </div> 
+              </div>
+       </div>  
+      </div> 
+      </div>
+  </main>
+  
+      
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="FooterReihe1 col-md-3">
+          <h2>Kontakt</h2>
+          <p>
+            Clear-Group <br>
+            Am Weichselgarten 21 <br>
+            91058 Erlangen
+          </p>
+          <p>
+            <span>Tel:</span>
+            +49 9131 68 59 18 0 <br>
+            <span>Fax:</span>
+            +49 9131 68 59 18 99
+            <br>
+            <span>Internet:</span>
+            <a href="http://www.clear-it.de">www.clear-it.de</a> <br>
+            <span>E-Mail:</span>
+            <a href="kontakt/">info@clear-it.de</a>
+          </p>
+        </div>
+
+        <div class="FooterReihe2 col-md-3 col-md-offset-1">
+         
+           <a href="http://www.clear-group.de/karriere/stellenangebote.html"><button id="onclick" style="margin-top: 60px" class="btn" type="button">Hier bewerben!</button></a>
+       
+          
+        </div>
+
+        <div class="FooterReihe3 col-md-3 col-md-offset-1">
+          <h2>Social Media</h2>
+          <a target="_blank" href="https://twitter.com/cleargroup_eu"><img width="55px" src="bilder/twitter2.png"></a>
+          <a target="_blank" href="https://de-de.facebook.com/clear.group/"><img width="55px" src="bilder/facebook2.svg"></a>
+          <a target="_blank" href="https://www.instagram.com"><img width="55px" src="bilder/instagram2.png"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <audio id="audio_with_controls" autoplay src="epic.mp3" type="audio/mp3"></audio> 
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="bundle.js"></script>
+   
+
+ 
+  </body>
+</html>
+
+
+  

@@ -1,0 +1,297 @@
+html, body, h1, h2, header, p, a,li,ul,ol
+ {
+ 	padding:0;
+	border: 0;
+	margin: 0;}
+
+
+body { 
+  height: 100%;
+  width: 100%;
+font-family: Myriad Set Pro1;
+   }
+
+.navbar {
+  text-decoration: none;
+  color:#ffffff;
+	font-size:20px;
+
+}
+
+.welcome {
+    font-style:italic;
+}
+
+h2 {
+	font-size:26px;
+	font-weight:bold;
+}
+h3 {
+	font-size:20px;
+	
+}
+p { 
+	font-size:16px;
+}
+
+.Reihe1 {
+	margin-top:20px;
+}
+
+#Reihe1links {
+	margin-top: 3%;
+}
+
+
+.mySlides {
+    max-width:100%;
+    border-radius:50%;
+    width:280px;
+    height:280px;
+   }
+
+
+button {
+	background-color:#ff9900;
+	color:#ffffff;
+	margin-bottom: 20px;
+	width:200px;
+	height:50px;
+	border-radius: 0px 7px 7px 7px;
+
+}
+
+
+
+.btn:hover {
+	background-color: #cc6600;
+	color: white;
+	width:200x;
+	height: 50px;
+	
+}
+.btn:active {
+	background-color: #ff9900;
+	color: white;
+	width:200x;
+	height: 50px;
+	
+}
+
+#head {
+	padding-top:100px;
+	text-decoration: none;
+	color:#ffffff;
+	font-size:36px;
+	letter-spacing:5px;
+	transition:letter-spacing 3s ease-out; 
+}
+
+#head:hover {
+
+	letter-spacing: 15px;
+}
+
+.dropdown-menu {
+	background-color:#4d4d4d ;
+}
+
+#district #bowling #azubiweb {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+  align-items:space-around;
+}
+.nav.navbar-nav.navbar-right li  {
+  color:white;
+  display:inline-table;
+  padding:0px 5px;
+  border:0;
+  float:none;
+}
+.nav.navbar-nav.navbar-right li a {
+  color:white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+	background-color: #4d4d4d;
+	transform: scale(1.1);
+	transition-timing-function: ease-out;
+}
+
+.bilderT img {
+	position: absolute;
+	float: right;
+	width: 220px;
+	height: 220px;
+	margin-left: 20px;
+
+}	
+.bilderJ img {
+	position: absolute;
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin-left: 20px;
+}
+p {
+    line-height: 18px;
+    margin: 0 0 10px 0;
+}
+.FooterReihe1 span {
+    display: inline-block;
+    width: 70px;
+}
+
+.FooterReihe1 p {
+	padding: 0 0 0 0px;
+	color: white;
+	font-size:13px;
+	line-height: 15px;
+}
+
+
+.FooterReihe1 h2 {
+    color: white;
+    margin: 15px 0 10px 0px;
+    border-bottom: 1px solid black;
+}
+.FooterReihe1 a {
+	text-decoration: underline;
+	color: white;
+}
+.FooterReihe1 a:hover {
+	color: #ffa31a;
+}
+
+footer {
+	background-color: #4d4d4d;
+	margin-top: 150px;
+}
+footer img {
+	margin-right: 20px;
+}
+
+
+.FooterReihe3 h2 {
+    color: white;
+    margin: 15px 0 10px 0px;
+    border-bottom: 1px solid black;
+}
+.FooterReihe3 img {
+	margin-top: 20px;
+	
+}
+hr {
+	width: 100%; 
+    height: 5px; 
+    margin: 200px auto 70px auto;
+    color: black;
+
+    background: #000;
+}
+.fenster a img {
+	width: 100px;  
+	float: left;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	}
+.BerufsschuleSeite {
+	height: 18em;
+	width: 70em;
+	margin-left: 90px;
+}
+.BerufsschuleSeite h2 {
+	color: black;
+}
+.toolsfenster .well {
+	height: 250px;
+}
+
+footer img {
+	margin-right: 20px;
+}
+
+
+.mySlides2 {
+      width:350px;
+    height:350px;
+    position: relative;
+}
+
+.mySlides3 {
+      width:350px;
+    height:350px;
+    position: relative;
+}
+
+.mySlides4 {
+      width:370px;
+    height:310px;
+    position: relative;
+}
+
+
+.img-Bowling {
+    position: relative;
+    margin-bottom: 12px;
+}
+.img-activitybowling {
+	 position: relative;
+	 bottom: 50px;
+}
+
+.img-district {
+    position: relative;
+    margin-bottom: 12px;
+}
+.slideshow-content4 {
+	position: relative;
+    left: 3px;
+}
+
+.img-website {
+    margin-bottom: 12px;
+}
+.lead {
+    font-size: 16px;
+}
+.buttonnav {
+	background-color: #4d4d4d;
+	width: 30px;
+	height: 30px;
+}
+.icon-bar {
+	background-color: #4d4d4d;
+	color: #4d4d4d;
+	position: relative;
+	right: 7.5px;
+	bottom: 1.5px;
+}
+
+.activitybowling{
+	margin-top: 30px;
+}
+/* Die Ausbildung */
+
+.tools {
+	position: relative;
+	bottom: 9px;
+}
+
+#tools {
+	position: relative;
+	top: 10px;
+}
+
+.mySlides6 {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.BerufsschuleSeite h2 {
+	padding-bottom: 10px;
+}
+.container h2 {
+	padding-bottom: 10px;
+}
