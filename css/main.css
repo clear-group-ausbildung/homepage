@@ -10,7 +10,7 @@ html, body, h1, h2, header, p, a,li,ul,ol
 
 
 	
-	src: url("../fonts/myriad-set-pro_medium.ttf");
+	src: url("../fonts/myriad-set-pro_text.ttf");
 	
 
 }
@@ -130,6 +130,8 @@ button {
 	transform: scale(1.1);
 	transition-timing-function: ease-out;
 }
+
+
 
 .bilderT img {
 	position: absolute;
