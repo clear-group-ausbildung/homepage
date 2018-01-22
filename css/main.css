@@ -5,6 +5,18 @@ html, body, h1, h2, header, p, a,li,ul,ol
 	margin: 0;}
 
 
+@font-face {
+	font-family: "Myriad Set Pro1";
+
+
+	
+	src: url("../fonts/myriad-set-pro_medium.ttf");
+	
+
+}
+
+
+
 body { 
   height: 100%;
   width: 100%;
