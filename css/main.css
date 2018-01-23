@@ -205,7 +205,7 @@ hr {
     background: #000;
 }
 .fenster a img {
-	width: 100px;  
+	width: 6.25em;  
 	float: left;
 	padding: 10px;
 	border: 1px solid black;
@@ -219,9 +219,7 @@ hr {
 .BerufsschuleSeite h2 {
 	color: black;
 }
-.toolsfenster .well {
-	height: 250px;
-}
+
 
 footer img {
 	margin-right: 20px;
