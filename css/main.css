@@ -205,7 +205,8 @@ hr {
     background: #000;
 }
 .fenster a img {
-	width: 15%;  
+	max-width: 100px;
+	
 	float: left;
 	padding: 10px;
 	border: 1px solid black;
