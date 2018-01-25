@@ -96,16 +96,11 @@ button {
 	color:#ffffff;
 	font-size:36px;
 	letter-spacing:5px;
-	transition:letter-spacing 3s ease-out; 
-}
 
-#head:hover {
-
-	letter-spacing: 15px;
 }
 
 .dropdown-menu {
-	background-color:#4d4d4d ;
+	background-color: #4d4d4d; 
 }
 
 #district #bowling #azubiweb {
@@ -130,8 +125,6 @@ button {
 	transform: scale(1.1);
 	transition-timing-function: ease-out;
 }
-
-
 
 .bilderT img {
 	position: absolute;
