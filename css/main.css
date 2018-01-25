@@ -127,9 +127,9 @@ button {
 	margin-top: 3%;
 }
 
-.slideshow-content4 {
+.slideshow-content{
 	position: relative;
-    left: 3px;
+    left: 99px;
 }
 
 .img-website {
@@ -145,17 +145,24 @@ button {
 .bilderT img {
 	position: absolute;
 	float: right;
-	width: 220px;
+	width: 180px;
 	height: 220px;
-	margin-left: 20px;
+	margin-left: 80px;
+}
+
+.bilderTT img {
+	position: absolute;
+	float: right;
+	width: 200px;
+	height: 220px;
+	margin-left: 80px;
 }
 
 .bilderJ img {
 	position: absolute;
 	float: left;
-	width: 220px;
+	width: 180px;
 	height: 220px;
-	margin-left: 20px;
 }
 
 .fenster a img {
@@ -299,6 +306,7 @@ hr {
 footer {
 	background-color: #4d4d4d;
 	margin-top: 150px;
+	padding-bottom: 20px;
 }
 
 footer img {
@@ -318,3 +326,4 @@ footer img {
 footer img {
 	margin-right: 20px;
 }
+
