@@ -142,6 +142,10 @@ button {
 
 /* Wir */
 
+.textK {
+	margin-left: 260px;
+}
+
 .bilderT img {
 	position: absolute;
 	float: right;
@@ -327,3 +331,26 @@ footer img {
 	margin-right: 20px;
 }
 
+
+
+/*---------------------------------------------------------------
+	Media Queries
+---------------------------------------------------------------*/
+
+/* <= 991px */
+
+@media screen and (max-width: 991px) {
+
+	.fenster img {
+		width: 45px;
+	}
+	.bilderJ, .bilderT, .bilderK, .hideMe, .img-activitybowling, .img-district {
+		display: none;
+	}
+	.textK {
+		margin-left: 0px;
+	}
+	.textBe {
+		margin-top: 0;
+	}
+}
